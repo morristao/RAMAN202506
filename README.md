@@ -84,7 +84,7 @@ III+IV(1比1)-xxx.asc   → 蘇丹紅 III:50%, IV:50%
 ### 1. Clone 並安裝依賴套件
 
 ```bash
-git clone https://github.com/morristao/RAMAN.git
+https://github.com/morristao/RAMAN202506.git
 !pip install numpy
 !pip install pandas
 !pip install torch
