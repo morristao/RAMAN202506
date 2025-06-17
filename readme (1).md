@@ -4,7 +4,7 @@
 
 ---
 
-## 📙 模型簡介
+## 模型簡介
 
 此專案包含以下步驟：
 
@@ -21,7 +21,7 @@
 
 ---
 
-## 💻 系統需求
+## 系統需求
 
 - **Python**：3.8 以上
 - **記憶體**：4GB 以上（建議 8GB+）
@@ -29,7 +29,7 @@
 
 ---
 
-## 🔧 安裝方式
+## 安裝方式
 
 建議使用虛擬環境（如 `conda`、`venv`）。
 
@@ -46,7 +46,7 @@ pip install spectrochempy  # 若需支援 .spc 檔
 
 ---
 
-## 📂 資料格式與輸入說明
+## 資料格式與輸入說明
 
 ### 支援格式：
 
@@ -64,7 +64,7 @@ III+IV(1比1)-xxx.asc   → 蘇丹紅 III:50%, IV:50%
 
 ---
 
-## 🔄 輸入與輸出
+## 輸入與輸出
 
 ### 輸入：
 
@@ -74,28 +74,34 @@ III+IV(1比1)-xxx.asc   → 蘇丹紅 III:50%, IV:50%
 
 ### 輸出：
 
-- `PLS-DA Spectrum Categorization Result.png`
-- `VIP Threshold vs Accuracy.png`
-- `Selected VIP Features Plot.png`
-- 分類結果與準確率於命令列印出
+
+
 
 ---
 
-## 🚀 使用方式
+## 使用方式
 
 ### 1. Clone 並安裝依賴套件
 
 ```bash
-git clone https://github.com/your-username/sudan-red-spectrum.git
-cd sudan-red-spectrum
-pip install -r requirements.txt
+git clone https://github.com/morristao/RAMAN.git
+!pip install numpy
+!pip install pandas
+!pip install torch
+!pip install torch.nn
+!pip install torch.optim
+!pip install matplotlib
+!pip install pyspectra
+!pip install PyWavelets
+!pip install Seaborn
+!pip install scikit-learn
 ```
 
 ### 2. 放置光譜資料
 
 請將 `.asc` 或 `.spc` 檔案放至以下資料夾中：
 
-```text
+```RAMAN
 remix_data/
 remix_data_2/
 remix_data_3/
@@ -116,7 +122,7 @@ python Project_handout20250616.py
 
 ---
 
-## 📊 評估指標
+## 評估指標
 
 - **Accuracy**：整體分類準確率
 - **Hamming Accuracy**：針對多成分樣本，逐元素是否分類正確的平均值
@@ -124,21 +130,20 @@ python Project_handout20250616.py
 
 ---
 
-## 📁 專案架構
+## 專案架構
 
-```text
+```RAMAN202506
 .
 ├── Project_handout20250616.ipynb     # 主程式 notebook
-├── SpectrumDataset.py                # 資料集處理類別
-├── utils.py                          # 工具函數（VIP、Hamming 計算）
 ├── /remix_data                       # 原始光譜資料 (.asc / .spc)
-├── /output                           # 圖片與結果輸出
+├── /remix_data_2                     # 原始光譜資料 (.asc / .spc)
+├── /remix_data_3                     # 原始光譜資料 (.asc / .spc)
 └── README.md
 ```
 
 ---
 
-## 🔗 參考資源
+## 參考資源
 
 - [scikit-learn: PLSRegression](https://scikit-learn.org/stable/modules/generated/sklearn.cross_decomposition.PLSRegression.html)
 - [SpectroChemPy](https://www.spectrochempy.fr/)
@@ -146,10 +151,10 @@ python Project_handout20250616.py
 
 ---
 
-## 📧 聯絡方式
+## 聯絡方式
 
-> 維護者：**Your Name**\
-> Email：`your_email@example.com`
+> 維護者：**LC Tao**\
+> Email：`liangkingtao@gmail.com`
 
-如有問題與建議，歡迎至 [GitHub Issue](https://github.com/your-username/sudan-red-spectrum/issues) 發起討論。
+如有問題與建議，歡迎發起討論。
 
