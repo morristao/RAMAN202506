@@ -4,7 +4,7 @@ This repository implements a complete pipeline for multi-class spectral classifi
 
 ---
 
-## 📙 Model Overview
+##  Model Overview
 
 This project performs the following tasks:
 
@@ -21,7 +21,7 @@ This project performs the following tasks:
 
 ---
 
-## 💻 System Requirements
+##  System Requirements
 
 - **Python**: 3.8+
 - **Memory**: ≥4GB (recommended 8GB+ for larger datasets)
@@ -29,7 +29,7 @@ This project performs the following tasks:
 
 ---
 
-## 🔧 Installation
+##  Installation
 
 We recommend using a virtual environment (e.g., `conda`, `venv`).
 
@@ -46,7 +46,7 @@ pip install spectrochempy  # for .spc file support
 
 ---
 
-## 📂 Data Format & Input
+##  Data Format & Input
 
 ### Supported formats:
 
@@ -64,7 +64,7 @@ Labels will be auto-parsed into 4-component proportion vectors.
 
 ---
 
-## 🔄 Inputs & Outputs
+##  Inputs & Outputs
 
 ### Input:
 
@@ -81,7 +81,7 @@ Labels will be auto-parsed into 4-component proportion vectors.
 
 ---
 
-## 🚀 Usage Steps
+##  Usage Steps
 
 ### 1. Clone and setup
 
@@ -116,7 +116,7 @@ python Project_handout20250616.py
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 - **Accuracy**: Standard classification accuracy
 - **Hamming Accuracy**: Element-wise correctness for multi-label proportions
@@ -124,7 +124,7 @@ python Project_handout20250616.py
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 .
@@ -138,7 +138,7 @@ python Project_handout20250616.py
 
 ---
 
-## 🔗 Resources
+##  Resources
 
 - [scikit-learn: PLSRegression](https://scikit-learn.org/stable/modules/generated/sklearn.cross_decomposition.PLSRegression.html)
 - [SpectroChemPy](https://www.spectrochempy.fr/)
@@ -146,7 +146,7 @@ python Project_handout20250616.py
 
 ---
 
-## 📧 Contact
+##  Contact
 
 > Maintainer: **Your Name**\
 > Email: `your_email@example.com`
